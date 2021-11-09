@@ -1,0 +1,81 @@
+// -- Mixins Global --
+
+// Media query
+@mixin xlg {
+    @media (min-width: 1900px) {
+        @content;
+    }
+}
+
+@mixin xmlg {
+    @media (min-width: 1600px) {
+        @content;
+    }
+}
+  
+@mixin mbp {
+    @media (max-width: 1440px) {
+        @content;
+    }
+}
+  
+@mixin mxlg {
+    @media (max-width: 1400px) {
+        @content;
+    }
+}
+  
+@mixin mlg {
+    @media (max-width: 1370px) {
+        @content;
+    }
+}
+@mixin lg {
+    @media (max-width: 1200px) { @content; }
+}
+  
+@mixin md {
+    @media (max-width: 992px) { @content; }
+}
+
+@mixin smd {
+    @media (max-width: 860px ) {
+      @content;
+    }
+}
+  
+@mixin sm {
+    @media (max-width: 767px) { @content; }
+}
+  
+@mixin xs {
+    @media (max-width: 576px) { @content; }
+}
+  
+// Size
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+  
+// Pseudo
+@mixin pseudo($display: block, $pos: absolute, $content: '') {
+    content: $content;
+    display: $display;
+    position: $pos;
+}
+  
+// Placeholder
+@mixin placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
+  
+@mixin clearfix() {
+    content: "";
+    display: table;
+    table-layout: fixed;
+}

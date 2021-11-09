@@ -1,0 +1,13 @@
+@import '../../../style/general/colors';
+
+.board-header {
+    background-color: $main-color;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.board {
+    height: calc(100vh - 75px);
+    width: 100%;
+    overflow-x: auto;
+    padding: 0 10px 10px 10px;
+}

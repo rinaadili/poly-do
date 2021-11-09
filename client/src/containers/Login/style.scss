@@ -1,0 +1,21 @@
+@import '../../style//general/colors';
+
+.login__inner-container {
+    max-width: 450px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: $main-color-text;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 10px 0;
+    .login__title-container {
+        p {
+            text-align: center;
+        }
+        span {
+            text-align: center;
+            font-weight: 700;
+        }
+    }
+}

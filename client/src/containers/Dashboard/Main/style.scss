@@ -1,0 +1,23 @@
+@import '../../../style/general/colors';
+
+.project-box {
+    margin-right: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: $main-color;
+    color: #FFFFFF;
+    padding: 20px 10px;
+    min-width: 220px;
+    max-width: 250px;
+    flex: 1;
+    h5 {
+        text-align: center;
+        font-weight: 700;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    p {
+        font-size: 14px;
+        text-align: center;
+    }
+}

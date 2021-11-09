@@ -1,0 +1,8 @@
+@import '../../style/general/colors';
+
+.header {
+    height: 55px;
+    .header-title {
+        color: $main-color;
+    }
+}

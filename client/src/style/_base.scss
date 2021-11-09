@@ -1,0 +1,15 @@
+@import "./general/reset";
+@import "./general/fonts";
+@import "./general/colors";
+@import "./general/mixins";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: $background-color;
+    color: $main-color-text;
+}
+
+.title-font {
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 600;
+}

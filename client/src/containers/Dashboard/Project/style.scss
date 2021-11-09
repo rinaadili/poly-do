@@ -1,0 +1,13 @@
+@import '../../../style/general/colors';
+.project-header {
+    background-color: $main-color;
+    color: #FFFFFF;
+}
+.workflow-list {
+    background-color: $secondary-background-color;
+    margin-right: 20px;
+}
+.workflow__statuses {
+    background-color: $main-color;
+    color: #FFFFFF;
+}

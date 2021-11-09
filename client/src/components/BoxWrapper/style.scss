@@ -1,0 +1,10 @@
+@import '../../style/general/colors';
+
+.box-wrapper {
+    background-color: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: $main-color-text;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 10px 5px;
+}

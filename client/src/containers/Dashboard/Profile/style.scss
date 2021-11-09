@@ -1,0 +1,49 @@
+@import '../../../style/general/colors';
+
+.profile {
+    .cover {
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+        border-bottom: 7px solid $main-color;
+        .cover-image {
+            width: 100%;
+            height: auto;
+            pointer-events: none;
+        }
+    }
+    .profile-photo__wrapper {
+        width: 200px;
+        height: 100px;
+        position: relative;
+        .profile-photo__image {
+            position: absolute;
+            bottom: 0;
+            border-radius: 50%;
+            border: 7px solid $thrd-color;
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+            img {
+                width: 100%;
+                // height: 100%;
+            }
+        }
+    }
+    .about__container {
+        p {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+    }
+    .settings__edit-content {
+        font-size: 35px;
+    }
+}
+
+.project-item {
+    background-color: $main-color;
+    color: #FFFFFF;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

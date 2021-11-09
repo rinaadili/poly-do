@@ -1,0 +1,14 @@
+@import '../../../style/general/colors';
+
+.customButton {
+    background-color: $background-color;
+    color: $main-color-text;
+    outline: none;
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .button-icon {
+            margin-right: 5px;
+    }
+}
