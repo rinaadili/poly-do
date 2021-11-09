@@ -4,7 +4,7 @@
 /client/ - Client side in React
 
 ## Postman collection
-https://www.postman.com/collections/0df3ef68751c66863082
+https://www.getpostman.com/collections/290b9c2a1fd0eec9aa1d
 
 ### Commands
 
